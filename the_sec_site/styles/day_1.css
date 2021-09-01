@@ -70,4 +70,19 @@ iframe {
     align-content: center;
     display:block;
     margin: auto;
+    
+}
+
+.fear {
+    line-height: 1.8;
+    background-color: black;
+}
+
+.sped {
+    color: darkred;
+}
+
+.demons {
+    color:darkred;
+    word-spacing: 0.2em;
 }
