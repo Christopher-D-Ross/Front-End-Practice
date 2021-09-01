@@ -1,0 +1,56 @@
+h1 {
+    color:darkslategray;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Akronim', cursive;
+    font-size: 60px;
+}
+
+img {
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+html {
+    background-color:cadetblue;
+}
+
+body {
+    align-content: center;
+    color: cadetblue;
+    border: 20px solid lightcoral;
+}
+
+h3 {
+    color:firebrick;
+    text-align: center;
+    font-family: 'Akronim', cursive;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+form {
+    font-family: 'Akronim', cursive;
+    color:darkslateblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.forward {
+    font-family: 'Akronim', cursive;
+    color:darkgoldenrod;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing:  0.3em;
+}
+
+.battle {
+    font-family: 'Akronim', cursive;
+    color:darkred;
+    font-size: 45px;
+    line-height: 1.8;
+}
