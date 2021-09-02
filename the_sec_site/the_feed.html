@@ -63,5 +63,48 @@
         </fieldset>
     </form>
     <h4 class = "goldy"><u>Gold Coins Only</u></h4>
+    <form>
+        <fieldset>
+        <label for = "ccard">Credit Card Now, Gold Coins Later...</label>
+    </br>
+        <input type = "text" inputmode="numeric" required pattern="[0-9]{14,16}" id = "ccard" name="creaditcard">
+    </br>
+    <label for = "expireMM">Expiration Month</label>
+    <select name='expireMM' id='expireMM'>
+        <option value=''>Month</option>
+        <option value='01'>January</option>
+        <option value='02'>February</option>
+        <option value='03'>March</option>
+        <option value='04'>April</option>
+        <option value='05'>May</option>
+        <option value='06'>June</option>
+        <option value='07'>July</option>
+        <option value='08'>August</option>
+        <option value='09'>September</option>
+        <option value='10'>October</option>
+        <option value='11'>November</option>
+        <option value='12'>December</option>
+    </select> 
+    <label for = "expireYY">Expiration Year</label>
+    <select name='expireYY' id='expireYY'>
+        <option value=''>Year</option>
+        <option value='21'>2020</option>
+        <option value='22'>2021</option>
+        <option value='23'>2022</option>
+        <option value='24'>2023</option>
+        <option value='25'>2024</option>
+    </select> 
+    </br>
+    <label class="cvc" for="pass">CVC:</label>
+</br>
+    <input class = "cvc" type="password" id="pass" name="password" minlength="3" maxlength="3" required>
+</br>
+        <label for ="email">Enter that which is called...an Email...</label>
+    </br>
+        <input type = "email" id = "email" name = "email">
+</br>
+    <input type="submit" value="Submit">
+        </fieldset>
+    </form>
     </body>
 </html>
