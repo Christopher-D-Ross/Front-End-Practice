@@ -8,7 +8,6 @@ h1 {
 
 img {
     display: block;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -52,7 +51,7 @@ form {
 .battle {
     font-family: 'Akronim', cursive;
     color:darkred;
-    font-size: 45px;
+    font-size: 60px;
     line-height: 1.8;
 }
 
@@ -90,7 +89,7 @@ iframe {
 
 .lead {
     color:seagreen;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bolder;
     letter-spacing:  0.3em;
     text-align: center;
@@ -139,4 +138,32 @@ iframe {
 
 .batname {
     color:darkred;
+}
+
+.goldy {
+    color:goldenrod;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gtc {
+    color:lightyellow
+}
+
+.wb {
+    color: saddlebrown;
+}
+
+.ffh {
+    color:forestgreen
+}
+
+.wm {
+    color:tan
+}
+
+.rpt {
+    color: red;
 }
