@@ -255,6 +255,20 @@ iframe {
     transform: translate(-50%, -50%);
 }
 
+.feel {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feels {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 h2 {
     color:firebrick;
     text-align: center;
