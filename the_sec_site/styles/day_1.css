@@ -15,7 +15,8 @@ img {
 }
 
 html {
-    background-color:cadetblue;;
+    background-color:cadetblue;
+    font-family: 'Akronim', cursive;
 }
 
 body {
@@ -57,7 +58,7 @@ form {
 
 .equip {
     border-radius: 10%;
-    border: 5px solid darkolivegreen;
+    border: 8px solid seagreen;
 }
 
 .sword {
@@ -85,4 +86,57 @@ iframe {
 .demons {
     color:darkred;
     word-spacing: 0.2em;
+}
+
+.lead {
+    color:seagreen;
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing:  0.3em;
+    text-align: center;
+}
+
+.greenp {
+    color:seagreen;
+    border: 5px solid darkred;
+    border-radius: 20px;
+}
+
+.axepiz {
+    border-radius: 10%;
+    border: 8px solid seagreen;
+    opacity: 0.8;
+}
+
+.keyw {
+    color: burlywood;
+    letter-spacing: 0.1em;
+}
+
+.burnt {
+    color:black;
+}
+
+.sburnt {
+    color: dimgrey;
+}
+
+.chewy {
+    color: burlywood;
+}
+
+.forest {
+    color:forestgreen
+}
+
+.sea {
+    color: cyan;
+}
+
+.addy {
+    text-align: center;
+}
+
+.batname {
+    color:darkred;
 }

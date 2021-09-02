@@ -1,1 +1,0 @@
-<a class = "battle" href = "https://youtu.be/gOE2BVRCUkM?t=22" target = "_blank">Equip</a>

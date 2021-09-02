@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <metadata>
+        <title>
+            The Feeding
+        </title>
+        <link href = "styles/day_1.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    </metadata>
+    <body>
+    <h1 class = "greenp">Before This Long Journey Begins You Must Feed</h1>
+    <img class = "axepiz" src = "styles/axe_pizza.jpg">
+    <h3>Food is scarce. Be wise with your pizza creation.</h3>
+    <form>
+        <fieldset>
+        <legend>First, Choose your <strong class = "keyw">Dough</strong></legend>
+        <p>
+            <label class = "burnt" for = "burntdough">Burnt Dough</label>
+            <input type = "radio" id = "burntdough" name = "doughchoice" value = "burntdough">
+        </p>
+        <p>
+            <label class = "sburnt" for = "sburnt">Slightly Burnt Dough</label>
+            <input type = "radio" id = "sburnt" name = "doughchoice" value = "slightlyburnt">
+        </p>
+        <p>
+            <label class = "chewy" for = "chewydough">Chewy Dough</label>
+            <input type = "radio" id = "chewydough" name = "doughchoice" value="chewydough">
+        </p>
+        </fieldset>
+        <fieldset>
+                <legend>Choose your pizza toppings:</legend>  
+                    <label for = "gcheese">Goat cheese</label>  
+                    <input id="gcheese" name="topping" type="checkbox" value="goatcheese">  
+                    <label for = "wildboar">Wild Boar</label>  
+                    <input id="wildboar" name="topping" type="checkbox" value="wildboar">  
+                    <label for="ffherbs">Fresh Field Herbs</label>  
+                    <input id="ffherbs" name="topping" type="checkbox" value="freshfieldherbs">
+                    <label for="wildmr">Wild Mushrooms</label>  
+                    <input id="wildmr" name="topping" type="checkbox" value="wildmushrooms">
+                    <label for="rtomat">Ripe Tomatoes</label>  
+                    <input id="rtomat" name="topping" type="checkbox" value="ripetomatoes">
+        </fieldset>
+        <fieldset>
+            <legend>Choose a pick up travel option</legend>
+            <p>
+                <label class = "forest" for = "ttforest">Through the wild beast ridden forest</label>
+                <input type = "radio" id = "ttforest" name = "pickup" value = "throughtheforest">
+            </p>
+            <p>
+                <label class = "sea" for = "attsea">Across the treacherous sea</label>
+                <input type = "radio" id = "attsea" name = "pickup" value = "acrossthesea">
+            </p>
+        </fieldset>
+        <fieldset>
+            <label class = "addy" for="addy">Please provide your location to the best of your ability</label>
+        </br>
+            <textarea id="addy" name="address" rows="5" cols="30">  </textarea>
+        </fieldset>
+        <fieldset>
+            <label for = "name">What do you go by during <strong class = "batname">Battle</strong>?</label>
+        </br>
+            <input type = "text" name = "name" id = "name">
+        </fieldset>
+    </form>
+    </body>
+</html>
