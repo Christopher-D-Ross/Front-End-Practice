@@ -181,7 +181,7 @@ iframe {
 }
 
 .tcenter {
-    position: relative;
+    position:relative;
     text-align: center;
     font-size: 40px;
     color:white;
@@ -189,14 +189,46 @@ iframe {
 
 .cent {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .cents {
     position: absolute;
-    top: 55%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.ats {
+    font-size: 120px;
+}
+
+.tomb {
+    border-top-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border: 8px double slategrey;
+    margin-bottom: 10px;
+}
+
+.passw {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.passws {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    color:firebrick;
+    text-align: center;
+    font-family: 'Akronim', cursive;
+    font-size: 50px;
+    letter-spacing: 0.1em;
 }
