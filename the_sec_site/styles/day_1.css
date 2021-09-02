@@ -171,3 +171,11 @@ iframe {
 .cvc {
     justify-content: center;
 }
+
+.warin {
+    justify-content: center;
+    font-size: 60px;
+    color: darkred;
+    align-items: center;
+    display: flex;
+}
