@@ -179,3 +179,24 @@ iframe {
     align-items: center;
     display: flex;
 }
+
+.tcenter {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+
+.cent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cents {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
