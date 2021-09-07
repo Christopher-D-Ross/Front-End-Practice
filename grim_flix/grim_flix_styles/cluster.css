@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+    background: linear-gradient(to right, black, darkslategrey);
+    font-family: YouMurderer BB;
+    background-image: url("https://i.gifer.com/RMfD.gif");
+}
+
+@font-face {
+    font-family: "YouMurderer BB";
+    src: url("Youmurdererbb-pwoK.otf");
+}
+
+.logo {
+    height: 90px;
+    width: 200px;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+}
+
+h3 {
+    color:darkred;
+    font-size: 40px;
+    display:inline;
+    padding-left: 20px;
+}
+
+.grk img {
+    white-space: nowrap;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    border: 0.5px solid transparent;
+    border-image: url(barbedt.png) 20% stretch;
+    border-image-width: 20;
+    border-image-outset: 2;
+}
+
+h2 {
+    color:darkred;
+    font-size: 70px;
+}
+
+.icons {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.one {
+    transform: rotate(27deg);
+    border-radius: 30px;
+}
+
+.two {
+    transform: rotate(-20deg);
+    border-radius: 50px;
+}
+
+.three {
+    transform: rotate(40deg);
+    border-radius: 70px;
+}
+
+.four {
+    transform: rotate(-44deg);
+    border-radius: 90px;
+}
+
+.five {
+    transform: rotate(60deg);
+    border-radius: 10px;
+}
+
+.six {
+    transform: rotate(-55deg);
+    border-radius: 100px;
+}
+
+#blu {
+    color: deepskyblue;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}

@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, darksalmon, cornsilk);
+}
+
+h1 {
+    color: slategray;
+    text-align: left;
+}
+
+h3 {
+    color: cadetblue;
+    float: right;
+    position: relative;
+    overflow: auto;
+    bottom: 60px;
+    right: 20px
+}
+ul {
+    float: right;
+}
+
+li {
+    display: inline;
+    position: relative;
+    left: 100px;
+    margin-left: 20px;
+    background-color:slategray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color:black ;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 20px;
+}
+
+a:hover {
+    color:powderblue;
+}
+
+p {
+    float: left;
+}
+
+.thebigbox {
+    height: 900px;
+    width: 900px;
+    border: 5px solid slategray;
+    background: linear-gradient(to right, cadetblue, darkred);
+    margin: 0 auto;
+    float:right;
+}
+
+.themedbox {
+    float: left;
+    height: 33.33%;
+    width: 33.33%;
+    border: 1px solid slategray;
+    background: linear-gradient(to left, cadetblue, darkred);
+}
+.thesmbox {
+    float: left;
+    height: 33.33%;
+    width: 33.33%;
+    border: 0.5px solid slategray;
+    background: linear-gradient(to bottom, cadetblue, darkred);
+}
+
+footer {
+    clear: both;
+}

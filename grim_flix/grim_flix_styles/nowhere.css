@@ -1,0 +1,19 @@
+html {
+    background-color: black;
+    background: linear-gradient(to right, black, darkslategrey);
+    font-family: YouMurderer BB;
+}
+
+@font-face {
+    font-family: "YouMurderer BB";
+    src: url("Youmurdererbb-pwoK.otf");
+}
+
+h1 {
+    color:darkred;
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    top: 200px;  
+    margin-right: 50px;  
+}
