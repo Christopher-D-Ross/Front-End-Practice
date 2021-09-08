@@ -45,6 +45,18 @@ ul.mean {
     clear: both;
 }
 
+.thunder {
+    color:blue;
+}
+
+.baron {
+    color:forestgreen;
+}
+
+.flame {
+    color:darkred;
+}
+
 .bean li:hover {
     background-color:black ;
 }
