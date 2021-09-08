@@ -13,20 +13,28 @@ h1 {
 
 h3 {
     color: cadetblue;
+    font-size: 40px;
     float: right;
     position: relative;
     overflow: auto;
-    bottom: 60px;
-    right: 20px
+    bottom: 30px;
+    right: 20px;
+    clear: both;
 }
-ul {
+ul.bean {
     float: right;
+    clear: both;
 }
 
-li {
+ul.mean {
+    float: right;
+    clear: both;
+}
+
+.bean li {
     display: inline;
     position: relative;
-    left: 100px;
+    left: px;
     margin-left: 20px;
     background-color:slategray;
     padding-left: 20px;
@@ -34,9 +42,10 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
+    clear: both;
 }
 
-li:hover {
+.bean li:hover {
     background-color:black ;
 }
 
@@ -52,6 +61,7 @@ a:hover {
 
 p {
     float: left;
+    clear: both;
 }
 
 .thebigbox {
@@ -61,6 +71,7 @@ p {
     background: linear-gradient(to right, cadetblue, darkred);
     margin: 0 auto;
     float:right;
+    clear: both;
 }
 
 .themedbox {
