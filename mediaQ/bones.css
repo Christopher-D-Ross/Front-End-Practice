@@ -1,0 +1,21 @@
+
+.bims {
+    display: flex;
+}
+
+.bim1, .bim2, .bim3, .bim4, .bim5, .bim6, .bim7 {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: tomato;
+}
+
+@media screen and (max-width: 720px) {
+    .bims {
+        display: flex;
+    }
+    
+    .bim1, .bim2, .bim3, .bim4, .bim5, .bim6, .bim7 {
+        background-color: teal;
+    }
+}
