@@ -2,20 +2,62 @@
 .bims {
     display: flex;
 }
+.oney {
+    width: 350px;
+    height: 350px;
+}
 
-.bim1, .bim2, .bim3, .bim4, .bim5, .bim6, .bim7 {
+img {
+    float: right;
+    clear: both;
+}
+
+.bim1, .bim2, .bim3, .bim4, .bim5, .bim6 {
     height: 150px;
     width: 150px;
     margin: 20px;
     background-color: tomato;
+    clear: both;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 480px) {
     .bims {
         display: flex;
+        flex-wrap: wrap;
+    }
+    .oney {
+        position: absolute;
+        float: right;
+        clear:both;
+    }
+
+    .oney1, .oney2 {
+        display: none;
     }
     
-    .bim1, .bim2, .bim3, .bim4, .bim5, .bim6, .bim7 {
+    .bim1, .bim2, .bim3, .bim4, .bim5, .bim6 {
         background-color: teal;
     }
 }
+
+@media screen and (min-width: 720px) {
+    .oney, .oney2 {
+        display: none;
+    }
+    .oney1 {
+        display: unset;
+        position: absolute;
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .oney, .oney1 {
+        display: none;
+    }
+    .oney2 {
+        display: unset;
+        position: absolute;
+    }
+}
+
