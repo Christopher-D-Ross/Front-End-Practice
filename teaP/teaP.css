@@ -33,7 +33,12 @@ li {
     display: inline-block;
     list-style: none;
     text-decoration: underline;
-    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.logo h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
 }
 
 .fim img {
@@ -56,6 +61,10 @@ li {
     height: 200px;
     width: 300px;
     margin: 20px;
+}
+
+.var h2 {
+    margin-bottom: 20px;
 }
 
 .fset {
@@ -96,7 +105,7 @@ li {
 }
 
 .locs {
-    height: 300px;
+    height: 250px;
     width: 300px;
     background-color: black;
     margin: 40px;
@@ -110,4 +119,22 @@ li {
 span {
     display: block;
     margin-top: 30px;
+}
+
+.cozy {
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin: 0 auto;
+    position: relative;
+    bottom:300px;
+    text-align: center;
+}
+
+.cozy h2 {
+    margin-bottom: 30px;
+}
+
+.cozy h5 {
+    margin-bottom: 20px;
 }
